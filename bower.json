@@ -1,0 +1,23 @@
+{
+  "name": "orgzzle",
+  "main": "index.js",
+  "version": "0.0.0",
+  "authors": [
+    "Matt Darnall <mdarnall@salesforce.com>"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ionic": "~0.9.27"
+  }
+}

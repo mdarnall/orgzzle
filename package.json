@@ -1,0 +1,41 @@
+{
+  "name": "orgzzle",
+  "version": "1.0.0",
+  "description": "Salesforce1 Account Chooser",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./**/*.js",
+    "test": "mocha test/unit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.soma.salesforce.com:mdarnall/orgzzle.git"
+  },
+  "browserify-shim": {
+    "./app/vendor/canvas-all.js": "Sfdc.canvas"
+  },
+  "keywords": [
+    "salesforce1",
+    "salesforce",
+    "sfdc",
+    "s1"
+  ],
+  "author": "Matt Darnall",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^1.0.0",
+    "hapi": "^6.8.1",
+    "jsforce": "^1.3.1",
+    "knex": "^0.7.3",
+    "lodash-node": "^2.4.1",
+    "pg": "^3.6.2",
+    "salesforce-signed-request": "0.0.1"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "chai-as-promised": "^4.1.1",
+    "chai-things": "^0.2.0",
+    "eslint": "^0.8.1",
+    "mocha": "^1.21.4"
+  }
+}
